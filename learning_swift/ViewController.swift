@@ -11,6 +11,7 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBAction func tapHandler(_ sender: Any) {
+        myTextField.text = "変更しました！";
     }
 
     @IBOutlet weak var myTextField: UITextField!
